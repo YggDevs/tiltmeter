@@ -1,0 +1,45 @@
+<HTML>
+  <HEAD>
+  <meta name='apple-mobile-web-app-capable' content='yes' />
+  <meta name='apple-mobile-web-app-status-bar-style' content='black-translucent' />
+
+  <TITLE>Servo Proyecto</TITLE>
+
+  <style type="text/css">
+    H1 { color: red; font-family: Verdana; }
+  </style>
+
+  </HEAD>
+  <BODY>
+  <H1>Proyecto Servo</H1>
+  <hr />
+  <br />
+  <H2>projet</H2>
+  <br />
+
+  <form id="form" onsubmit="return false;">
+    <input  type="text" id="ingresaDelay" />
+    <input  type="submit" name ="submit " value="Aplicar" onclick="traerValor();" />
+
+  </form>
+
+
+<br />
+<br />
+
+
+
+  <button href=\"/?button1on\"\">Rotar izquierda servo 1</button>
+  <button href=\"/?button1off\"\">Rotar izquierda servo 1 </button><br />
+  <br />
+  <br />
+  <button href=\"/?button2off\"\">Rotar izquierda servo 2 </button>
+    <button href=\"/?button2off\"\">Rotar izquierda servo 2</button><br />
+  <br />
+  <br />
+  <button href=\"/?button3on\"\">Rotar izquierda </button>
+  <button href=\"/?button3off\"\">Rotar derecha </button><br />
+  <p>version-v</p>
+  <br />
+  </BODY>
+  </HTML>
