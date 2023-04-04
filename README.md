@@ -7,20 +7,7 @@ Componentes
     Dos servomotores
     Placa de pruebas
     Jumpers
-
-Diagrama de conexión
-
-ESP8266       Servomotor 1       Servomotor 2
-   |                |                  |
-   |--------------Signal--------------|
-   |                |                  |
-   |              VCC                  |
-   |-----------------------------------|
-   |              GND                  |
-   |-----------------|-----------------|
-                     |
-                  Placa de pruebas
-
+![Diagrama de conexion ](proyecto.png)
 
 Instalación
 
