@@ -1,4 +1,4 @@
-# Control remoto de servomotores con ESP8266
+# Control remoto de servomotor con ESP8266
 
 Este proyecto utiliza un módulo ESP8266 para controlar de forma remota dos servomotores. El módulo ESP8266 actúa como servidor web y recibe peticiones HTTP para controlar la posición de los servomotores.
 Componentes
@@ -10,7 +10,6 @@ Componentes
 
 Diagrama de conexión
 
-
 ESP8266       Servomotor 1       Servomotor 2
    |                |                  |
    |--------------Signal--------------|
@@ -21,6 +20,7 @@ ESP8266       Servomotor 1       Servomotor 2
    |-----------------|-----------------|
                      |
                   Placa de pruebas
+
 
 Instalación
 
